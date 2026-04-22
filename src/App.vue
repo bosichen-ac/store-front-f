@@ -109,10 +109,10 @@ export default {
 
 <style>
 body {
-  background-image: url('@/assets/algonquin.jpg');
+  /* background-image: url('@/assets/algonquin.jpg'); 
   background-size: cover;
   background-position: center;
-  background-attachment: fixed; /* Keeps the background in place when scrolling */
+  background-attachment: fixed; /* Keeps the background in place when scrolling */ 
   margin: 0;
   padding: 0;
 }
@@ -161,7 +161,7 @@ a {
 
 button {
   padding: 10px;
-  background-color: #005f8b;
+  background-color: #0d6efd;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -181,7 +181,7 @@ button {
   justify-content: space-between;
   margin: 1rem;
   padding: 1rem;
-  border: 1px solid #ccc;
+  border: 1px solid #333;
   border-radius: 0.5rem;
   background-color: rgba(255, 255, 255, 0.9);
 }
@@ -197,12 +197,17 @@ button {
 }
 
 .product-card h2 {
+  text-align: start;
   font-weight: bold;
   margin-bottom: 0.5rem;
 }
 
 .product-card p {
   margin-bottom: 1rem;
+}
+
+.product-desc {
+  text-align: start;
 }
 
 .product-controls {
@@ -269,7 +274,7 @@ button {
 .checkout-button {
   margin-top: 20px;
   padding: 10px 20px;
-  background-color: #007acc;
+  background-color: #0d6efd;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -277,6 +282,10 @@ button {
 }
 
 .checkout-button:hover {
+  background-color: #005f8b;
+}
+
+.remove-button:hover {
   background-color: #005f8b;
 }
 </style>

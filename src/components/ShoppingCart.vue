@@ -16,7 +16,7 @@
           <td>{{ item.quantity }}</td>
           <td>{{ item.product.price }}</td>
           <td>{{ getItemTotal(item) }}</td>
-          <td><button @click="removeFromCart(item)">Remove</button></td>
+          <td><button class="remove-button" @click="removeFromCart(item)">Remove</button></td>
         </tr>
       </tbody>
     </table>
