@@ -2,7 +2,7 @@
   <nav>
     <div class="logo">
       <a href="/">
-        <span class="back-to-home">Best Buy ? &nbsp;&nbsp;</span>
+        <span class="back-to-home">Best Buy ?</span>
       </a>
     </div>
     <button class="hamburger" @click="toggleNav">
@@ -40,8 +40,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* background-color: #0d6efd; */
-  background-color: yellowgreen;
+  background-color: #0d6efd;
   color: #fff;
   height: 60px;
   padding-top: 0.5rem;
